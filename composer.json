@@ -16,5 +16,7 @@
         "psr-4": {
             "Application\\": "application/classes"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
