@@ -1,0 +1,28 @@
+{
+    // general environment settings
+    "environment": "DEVELOPMENT",
+    "timezone": "UTC",
+    "locale": "en_US.utf-8",
+    "charset": "utf-8",
+    "errors": "TRUE",
+    "caching": "FALSE",
+    "expose": "TRUE",
+
+    // valid url locations
+    "url": {
+        "trusted_hosts": [ 
+            "127.0.0.1",
+            "localhost",
+            "(.*)\\.dev"
+        ]
+    },
+
+    // session config
+    "session": {
+        "cookie": {
+            "encrypted": "FALSE",
+        }
+    }
+
+    // 
+}

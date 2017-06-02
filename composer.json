@@ -1,0 +1,20 @@
+{
+    "name": "forgephp/forgephp",
+    "description": "Forge for PHP",
+    "keywords": ["framework", "forge", "foundation"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.6.4",
+        "forgephp/foundation": "*",
+        "php-console/php-console": "^3.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Application\\": "application/classes"
+        }
+    }
+}
